@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@1&display=swap');
+body {
+  background-image:url("../assets/imgs/barco.png");
+background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Tiro Kannada', serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto; 
+  display: flex;
+}
+
+.header {
+  border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e3b062;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #e3b062;
+}
+
+
+.titulo {
+  color: #32b9cd;
+  width: fit-content;
+  font-weight: 500;
+}
+
+
+/* BANNER */
+
+
+.banner .container {
+  height: 400px;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tamanho-conteudo { 
+  height: fit-content !important;
+}
+
+.banner p {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  font-size: 36px;
+}
+
+.banner .container span {
+  font-weight: 800;
+}
+
+#caixatext{
+  background-color: #012e40bd;
+  border-radius: 20px;
+  font-family:'Tiro Kannada', serif  ;
+  font-size: 20px;
+  color: #C7A3A7;
+  height: 500px;
+  width: 50%;
+  margin: 60px 0px 40px 20px;
+  }
+
+  .banner{
+display: flex;
+/* justify-content: center; */
+/* align-content: center; */
+  }
