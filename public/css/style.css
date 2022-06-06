@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@1&display=swap');
 body {
-  background-image: url("../assets/imgs/cadastroluffy.png");
+  /* background-image: url("../assets/imgs/cadastroluffy.png"); */
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: wheat;
+  background-image: url();
   font-family: 'Tiro Kannada', serif;
 }
 
@@ -141,3 +142,23 @@ body {
   background-color:cornsilk ;
 }
 
+  .logo img {
+height:80px ;
+width: 90px;
+    margin-left: 50px;
+  }
+
+ .fundo{
+   height: 95%;
+   width: 95%;
+background-color: rgba(0, 0, 0, 0.3);
+border: 10px solid white;
+/* position: absolute; */
+ }
+
+ .protagonista {
+   position: absolute;
+   left: 500px;
+
+ }
+ .sobreluffy
