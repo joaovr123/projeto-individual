@@ -26,8 +26,6 @@ idUsuaario int primary key auto_increment,
 nome varchar(45),
 email varchar(45),
 senha varchar(45),
-fkSaga int,
-foreign key (fkSaga) references saga (idsaga)
 );
 
 create table votos(
@@ -38,7 +36,14 @@ fkUsuario int,
 foreign key (fkUsuario) references usuario (idUsuario),
 primary key(idVotos,fksaga,fkUsuario)
 );
+ insert usuario(nome,email,senha) values 
+ ("joao","joao@email.com","123"); 
  
+ 
+ insert votos (fkSaga,fkUsuario) values
+ (1,1);
+ 
+ select * from votos;
  select count(idVotos) from saga
  join votos on fkSaga = idSaga
  join usuario on idUsuario = fkUsuario where fkUsuario = idvotos;

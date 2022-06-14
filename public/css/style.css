@@ -3,8 +3,10 @@ body {
   /* background-image: url("../assets/imgs/cadastroluffy.png"); */
   margin: 0;
   padding: 0;
-  background-color: wheat;
-  background-image: url();
+  display: flex;
+  flex-direction: column;
+  background-color: #f5deb3;
+  background-image: url(".././assets/imgs/cadastroluffy.png") no-repeat;  
   font-family: 'Tiro Kannada', serif;
 }
 
@@ -54,7 +56,6 @@ body {
   height: fit-content;
   padding: 40px 0;
   color: white;
-  background-image: url(".././assets/imgs/bg-jelly-fish-para_outras_pags.png");
   background-size: cover;
 }
 
@@ -149,10 +150,10 @@ width: 90px;
   }
 
  .fundo{
-   height: 95%;
+   /* height: 95%;
    width: 95%;
 background-color: rgba(0, 0, 0, 0.3);
-border: 10px solid white;
+border: 10px solid white; */
 /* position: absolute; */
  }
 
@@ -161,4 +162,18 @@ border: 10px solid white;
    left: 500px;
 
  }
- .sobreluffy
+ .tema{
+width: 100px;
+ }
+
+ .protagonista img {
+width: 100px;
+
+ }
+
+ .tabela {
+ display: flex;
+ background-color: #fff;
+
+ }
+ 
