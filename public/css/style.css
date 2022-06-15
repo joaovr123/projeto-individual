@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@1&display=swap');
+
 body {
   /* background-image: url("../assets/imgs/cadastroluffy.png"); */
   margin: 0;
@@ -6,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f5deb3;
-  background-image: url(".././assets/imgs/cadastroluffy.png") no-repeat;  
+  background-image: url(".././assets/imgs/cadastroluffy.png") no-repeat;
   font-family: 'Tiro Kannada', serif;
 }
 
@@ -66,7 +67,7 @@ body {
   align-items: center;
 }
 
-.tamanho-conteudo { 
+.tamanho-conteudo {
   height: fit-content !important;
 }
 
@@ -89,7 +90,7 @@ body {
   display: flex;
 }
 
-.social .container{
+.social .container {
   justify-content: center;
 }
 
@@ -138,42 +139,83 @@ body {
 /* menu */
 
 .menulateral {
-  height: 700px;
+  height: 100vh;
   width: 200px;
-  background-color:cornsilk ;
+  background-color: cornsilk;
 }
 
-  .logo img {
-height:80px ;
-width: 90px;
-    margin-left: 50px;
+.logo img {
+  height: 80px;
+  width: 90px;
+  margin-left: 50px;
+}
+
+.protagonista {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+}
+
+.sobre_luffy {
+  display: flex;
+  justify-content: center;
+  background-color: #012e40bd;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-family: 'Tiro Kannada', serif;
+  font-size: 20px;
+  color: #C7A3A7;
+  height: fit-content;
+  width: 50%;
+  margin: 60px 0px 40px 20px;
+}
+
+.protagonista img {
+  width: 10%;
+
+}
+
+.protagonista button {
+  width: 5%;
+
+}
+
+.tabela {
+  display: flex;
+  background-color: #fff;
+
+}
+
+.bando {
+  display: flex;
+
+}
+
+.tema {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+
+}
+
+.personagens{
+  display: flex;
+  height: 30vh;
+}
+
+.personagens img {
+  border: 2px solid black;
+
+}
+
+.video{
+  display: flex;
+  margin-bottom: 2vh;
+  
   }
-
- .fundo{
-   /* height: 95%;
-   width: 95%;
-background-color: rgba(0, 0, 0, 0.3);
-border: 10px solid white; */
-/* position: absolute; */
- }
-
- .protagonista {
-   position: absolute;
-   left: 500px;
-
- }
- .tema{
-width: 100px;
- }
-
- .protagonista img {
-width: 100px;
-
- }
-
- .tabela {
- display: flex;
- background-color: #fff;
-
- }
- 
+  
+  .video iframe{
+    height: 30vh;
+  }    

@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Protagonista</title>
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
-<body> 
-    <div  class="tabela">
-    <div class="protagonista">
-        <h2>evolua o Luffy !</h2>
-    <img id="img_luffy" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c6f1009-9bed-42c1-90b2-5672c47100ef/d6mwl0m-ca65a3e0-1430-4695-8514-bb4422c4803e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjNmYxMDA5LTliZWQtNDJjMS05MGIyLTU2NzJjNDcxMDBlZlwvZDZtd2wwbS1jYTY1YTNlMC0xNDMwLTQ2OTUtODUxNC1iYjQ0MjJjNDgwM2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1ZWES6x_Yu6o3MGskj7-9iI6K5iNjseECtBZ8nb3nPk">
 
+<body>
+    <div class="tabela">
+        <div class="menulateral">
+            <div class="logo">
 
-    <button onclick="evoluir()">Evoluir</button>
-</div>
-    <div class="menulateral"    >
-        <div class="logo" >
+                <img src="../assets/imgs/logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="mogwaras.html">mugwaras</a></li>
+                <li><a href="sagas.html"> sagas</li>
+                <li><a href="ranking.html">ranking</li>
+                <li><a href="protagonista.html">protagonista</li><br>
+                <button><a href="../index.html"><img src="../assets/imgs/126467.png " style="width: 30px;"
+                            alt=""></a></button>
 
-            <img  src="../assets/imgs/logo.png" alt="">
+            </ul>
         </div>
-        <ul>
-            <li><a href="mogwaras.html">mugwaras</a></li>
-            <li><a href="sagas.html"> sagas</li>
-            <li><a href="ranking.html">ranking</li>
-            <li><a href="protagonista.html">protagonista</li><br>
-<button ><a href="../index.html"><img src="../assets/imgs/126467.png " style="width: 30px;" alt=""></a></button>
-            
-        </ul>
-    </div>
-    <div class="tema">
+        <div class="protagonista">
+            <span class="sobre_luffy">Sobre o Luffy</span>
+            <h2>evolua o Luffy !</h2>
+            <img id="img_luffy"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c6f1009-9bed-42c1-90b2-5672c47100ef/d6mwl0m-ca65a3e0-1430-4695-8514-bb4422c4803e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjNmYxMDA5LTliZWQtNDJjMS05MGIyLTU2NzJjNDcxMDBlZlwvZDZtd2wwbS1jYTY1YTNlMC0xNDMwLTQ2OTUtODUxNC1iYjQ0MjJjNDgwM2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1ZWES6x_Yu6o3MGskj7-9iI6K5iNjseECtBZ8nb3nPk">
 
+
+            <button onclick="evoluir()">Evoluir</button>
+        </div>
 
 
     </div>
-    
- <div class="sobreluffy">
-
-
- </div>
-
-</div>
 </body>
+
 </html>
 <style>
     #img_luffy {
@@ -58,10 +55,10 @@
     ]
     let contadorImg = 0;
     function evoluir() {
-    
+
         img_luffy.src = gears[contadorImg]
         contadorImg++;
-        if (contadorImg > gears.length-1) {
+        if (contadorImg > gears.length - 1) {
             img_luffy.src = gears[gears.length - 1]
         }
     }
